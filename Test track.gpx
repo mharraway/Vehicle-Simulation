@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Garmin Connect" version="1.1"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/11.xsd"
+  xmlns:ns3="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <metadata>
+    <name>test track</name>
+    <link href="connect.garmin.com">
+      <text>Garmin Connect</text>
+    </link>
+    <time>2019-06-24T08:14:16.000Z</time>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="-33.93994" lon="18.8546">
+        <time>2019-06-24T08:14:16.000Z</time>
+      </trkpt>
+      <trkpt lat="-33.939930000000004" lon="18.85471">
+        <time>2019-06-24T08:14:16.147Z</time>
+      </trkpt>
+      <trkpt lat="-33.939330000000005" lon="18.85469">
+        <time>2019-06-24T08:14:17.109Z</time>
+      </trkpt>
+      <trkpt lat="-33.938930000000006" lon="18.85472">
+        <time>2019-06-24T08:14:17.751Z</time>
+      </trkpt>
+      <trkpt lat="-33.938520000000004" lon="18.854770000000002">
+        <time>2019-06-24T08:14:18.412Z</time>
+      </trkpt>
+      <trkpt lat="-33.93824" lon="18.854850000000003">
+        <time>2019-06-24T08:14:18.873Z</time>
+      </trkpt>
+      <trkpt lat="-33.937960000000004" lon="18.854950000000002">
+        <time>2019-06-24T08:14:19.341Z</time>
+      </trkpt>
+      <trkpt lat="-33.93744" lon="18.855320000000003">
+        <time>2019-06-24T08:14:20.309Z</time>
+      </trkpt>
+      <trkpt lat="-33.93737" lon="18.855430000000002">
+        <time>2019-06-24T08:14:20.493Z</time>
+      </trkpt>
+      <trkpt lat="-33.937310000000004" lon="18.855590000000003">
+        <time>2019-06-24T08:14:20.727Z</time>
+      </trkpt>
+      <trkpt lat="-33.936960000000006" lon="18.85715">
+        <time>2019-06-24T08:14:22.876Z</time>
+      </trkpt>
+      <trkpt lat="-33.93683" lon="18.85753">
+        <time>2019-06-24T08:14:23.423Z</time>
+      </trkpt>
+      <trkpt lat="-33.93652" lon="18.85809">
+        <time>2019-06-24T08:14:24.318Z</time>
+      </trkpt>
+      <trkpt lat="-33.936260000000004" lon="18.85802">
+        <time>2019-06-24T08:14:24.745Z</time>
+      </trkpt>
+      <trkpt lat="-33.93619" lon="18.858520000000002">
+        <time>2019-06-24T08:14:25.419Z</time>
+      </trkpt>
+      <trkpt lat="-33.93614" lon="18.859">
+        <time>2019-06-24T08:14:26.062Z</time>
+      </trkpt>
+      <trkpt lat="-33.93611" lon="18.858980000000003">
+        <time>2019-06-24T08:14:26.117Z</time>
+      </trkpt>
+      <trkpt lat="-33.936060000000005" lon="18.858980000000003">
+        <time>2019-06-24T08:14:26.197Z</time>
+      </trkpt>
+      <trkpt lat="-33.93603" lon="18.858980000000003">
+        <time>2019-06-24T08:14:26.245Z</time>
+      </trkpt>
+      <trkpt lat="-33.93596" lon="18.85903">
+        <time>2019-06-24T08:14:26.375Z</time>
+      </trkpt>
+      <trkpt lat="-33.935950000000005" lon="18.859070000000003">
+        <time>2019-06-24T08:14:26.431Z</time>
+      </trkpt>
+      <trkpt lat="-33.93578" lon="18.859080000000002">
+        <time>2019-06-24T08:14:26.704Z</time>
+      </trkpt>
+      <trkpt lat="-33.93564" lon="18.8591">
+        <time>2019-06-24T08:14:26.930Z</time>
+      </trkpt>
+      <trkpt lat="-33.935590000000005" lon="18.859160000000003">
+        <time>2019-06-24T08:14:27.043Z</time>
+      </trkpt>
+      <trkpt lat="-33.93414" lon="18.85931">
+        <time>2019-06-24T08:14:29.376Z</time>
+      </trkpt>
+      <trkpt lat="-33.93386" lon="18.85932">
+        <time>2019-06-24T08:14:29.825Z</time>
+      </trkpt>
+      <trkpt lat="-33.933580000000006" lon="18.859260000000003">
+        <time>2019-06-24T08:14:30.281Z</time>
+      </trkpt>
+      <trkpt lat="-33.9332" lon="18.86224">
+        <time>2019-06-24T08:14:34.291Z</time>
+      </trkpt>
+      <trkpt lat="-33.933130000000006" lon="18.862820000000003">
+        <time>2019-06-24T08:14:35.071Z</time>
+      </trkpt>
+      <trkpt lat="-33.93301" lon="18.86278">
+        <time>2019-06-24T08:14:35.271Z</time>
+      </trkpt>
+      <trkpt lat="-33.93298" lon="18.86279">
+        <time>2019-06-24T08:14:35.321Z</time>
+      </trkpt>
+      <trkpt lat="-33.93292" lon="18.86286">
+        <time>2019-06-24T08:14:35.455Z</time>
+      </trkpt>
+      <trkpt lat="-33.932880000000004" lon="18.86289">
+        <time>2019-06-24T08:14:35.531Z</time>
+      </trkpt>
+      <trkpt lat="-33.93251" lon="18.86287">
+        <time>2019-06-24T08:14:36.125Z</time>
+      </trkpt>
+      <trkpt lat="-33.932460000000006" lon="18.862910000000003">
+        <time>2019-06-24T08:14:36.221Z</time>
+      </trkpt>
+      <trkpt lat="-33.932370000000006" lon="18.86365">
+        <time>2019-06-24T08:14:37.216Z</time>
+      </trkpt>
+      <trkpt lat="-33.93224" lon="18.864600000000003">
+        <time>2019-06-24T08:14:38.497Z</time>
+      </trkpt>
+      <trkpt lat="-33.93157" lon="18.86447">
+        <time>2019-06-24T08:14:39.585Z</time>
+      </trkpt>
+      <trkpt lat="-33.931540000000005" lon="18.864690000000003">
+        <time>2019-06-24T08:14:39.882Z</time>
+      </trkpt>
+      <trkpt lat="-33.93123" lon="18.867250000000002">
+        <time>2019-06-24T08:14:43.323Z</time>
+      </trkpt>
+      <trkpt lat="-33.93117" lon="18.86768">
+        <time>2019-06-24T08:14:43.903Z</time>
+      </trkpt>
+      <trkpt lat="-33.93103" lon="18.86928">
+        <time>2019-06-24T08:14:46.043Z</time>
+      </trkpt>
+      <trkpt lat="-33.93085" lon="18.871010000000002">
+        <time>2019-06-24T08:14:48.362Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
