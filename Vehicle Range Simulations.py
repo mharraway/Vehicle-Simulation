@@ -7,17 +7,17 @@ from math import pi,degrees,sin,cos,sqrt,asin
 ############################ Kown Parameters ##################################
 
 g = 9.81                        # Gravity
-Vehicle_Weight = 380 + 80       # Weight + Driver
-Tire_Radius = 0.318             # Rear Tire Radius
-Cd = 0.825                      # Drag Coefficient
-Frontal_Area_Cab = 1.84*1.14    # Frontal Area (Drag Calculations)
-rho = 1.225                     # Desnsity
-Vmax = 50                       # Max Speed of Cab
+Vehicle_Weight = 185.973 + 90   # Weight (average 250cc quadbike) + Driver
+Tire_Radius = 0.25              # Rear Tire Radius
+Cd = 0.7                      # Drag Coefficient ***
+Frontal_Area_Cab = 0.839    # Frontal Area (Drag Calculations)***
+rho = 1.225                     # Desnsity of air in kg/m3
+Vmax = 38                       # Max Speed of Cab
 Vs = Vmax/3.6                   # Max Speed in m/s (Roaling Resistance Calcs)
 effelectrical = 0.8             # Expected Electrical Eff
-Battery_Cap = 7.2               # Battery Capacity kWh
-Pressure_Tire = 2.2             # Tire Pressure (Bar)
-Cab_Acceleration = 0.76         # Real World Tested Acceleration (m/s^2)
+Battery_Cap =2.4    # 3.367             # Battery Capacity kWh***
+Pressure_Tire = 0.413685        # Tire Pressure (Bar)
+Cab_Acceleration = 0.76         # Real World Tested Acceleration (m/s^2) ***
 
 ############################## Calculations ###################################
 
