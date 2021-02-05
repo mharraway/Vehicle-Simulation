@@ -1,4 +1,5 @@
 import gpxpy
+import gpxpy.gpx
 import matplotlib.pyplot as plt
 import datetime
 from geopy import distance
@@ -29,18 +30,18 @@ Change_In_Altitude = 20
 Cab_Acceleration = 0.76
 ########################################
 
-gpx_file = open('Test track.gpx', 'r')
+gpx_file = open('30_P_Up_2.gpx', 'r')
 gpx = gpxpy.parse(gpx_file)
 data = gpx.tracks[0].segments[0].points
 start = data[0]
 finish = data[-1]
 
-df = pd.DataFrame(columns=['lon', 'lat', 'alt', 'time'])
+df = pd.DataFrame(columns=['lon', 'lat', 'ele', 'time'])
 for point in data:
-    df = df.append({'lon': point.longitude, 'lat' : point.latitude, 'alt' : point.elevation, 'time' : point.time}, ignore_index=True)
+    df = df.append({'lon': point.longitude, 'lat' : point.latitude, 'ele' : point.elevation, 'time' : point.time}, ignore_index=True)
 
-Time_Seconds = np.linspace(0,len(df['alt'])-1,len(df['alt']))
-Altitude = df['alt']
+Time_Seconds = np.linspace(0,len(df['ele'])-1,len(df['ele']))
+Altitude = df['ele']
 Longatude = df['lon']
 Latitude = df['lat']
 
@@ -103,7 +104,14 @@ Pout = TORQUE_Wheel*Radial_Wheel_Speed
 Pin = (Pout/(eff))
 Energy = np.sum(Pin)
 
-plt.plot(Time_Seconds,Speed)
+plt.plot(Time_Seconds,Speed,label="Velocity")
+plt.xlabel("Time(Seconds)")
+plt.ylabel("Magnitude")
+
+plt.plot(Time_Seconds,Acceleration,label="Acceleration")
+plt.xlabel("Time(Seconds)")
+plt.plot(Time_Seconds,Altitude,label="Altitude")
+plt.legend()
 plt.show()
 
 
